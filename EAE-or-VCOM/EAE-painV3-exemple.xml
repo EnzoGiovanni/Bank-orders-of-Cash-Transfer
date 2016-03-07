@@ -1,0 +1,54 @@
+﻿<Document xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03 P:\Remises_ordres_doc\Schema_xsd\pain.001.001.03.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CstmrCdtTrfInitn>
+    <GrpHdr>
+      <MsgId>Remettant</MsgId>
+      <CreDtTm>2015-01-05T09:00:00</CreDtTm>
+      <NbOfTxs>2</NbOfTxs><InitgPty/>
+    </GrpHdr>
+
+    <PmtInf>
+      <PmtInfId>Ref DO</PmtInfId>
+      <PmtMtd>TRF</PmtMtd>
+      <PmtTpInf><SvcLvl><Cd>SEPA</Cd></SvcLvl><LclInstrm><Prtry>VCOM</Prtry></LclInstrm></PmtTpInf>
+      <ReqdExctnDt>2016-03-04</ReqdExctnDt>
+      <Dbtr><Nm>Nom DO</Nm></Dbtr>
+      <DbtrAcct><Id><IBAN>FR7630004045100005024477785</IBAN></Id></DbtrAcct>
+      <DbtrAgt><FinInstnId><BIC>BNPAFRXXX</BIC></FinInstnId></DbtrAgt>
+		  <CdtTrfTxInf>
+			<PmtId><EndToEndId>1 facture</EndToEndId></PmtId>
+			<Amt><InstdAmt Ccy="EUR">11.01</InstdAmt></Amt>
+			<CdtrAgt><FinInstnId><BIC>BNPAFRXXX</BIC></FinInstnId></CdtrAgt>
+			<Cdtr><Nm>Nom BEN</Nm></Cdtr>
+			<CdtrAcct><Id><IBAN>FR7630004045100002002268670</IBAN></Id></CdtrAcct>
+			<RmtInf>
+			  <Strd>
+				<RfrdDocInf><Tp><CdOrPrtry><Cd>CINV</Cd></CdOrPrtry></Tp><Nb>Cli-REF---1--nn--nn--nn--nn--nn--nF</Nb><RltdDt>2016-01-01</RltdDt></RfrdDocInf>
+				<RfrdDocAmt><RmtdAmt Ccy="EUR">101.13</RmtdAmt></RfrdDocAmt>
+				<CdtrRefInf><Tp><CdOrPrtry><Cd>SCOR</Cd></CdOrPrtry></Tp><Ref>FourRef-1nn--nn--nn--nn--nn--nn--nF</Ref></CdtrRefInf>
+			  </Strd>
+			</RmtInf>
+		  </CdtTrfTxInf>
+		  <CdtTrfTxInf>
+			<PmtId><EndToEndId>1 facture</EndToEndId></PmtId>
+			<Amt><InstdAmt Ccy="EUR">12.01</InstdAmt></Amt>
+			<CdtrAgt><FinInstnId><BIC>BNPAFRXXX</BIC></FinInstnId></CdtrAgt>
+			<Cdtr><Nm>Nom BEN</Nm></Cdtr>
+			<CdtrAcct><Id><IBAN>FR7630004045100002002268670</IBAN></Id></CdtrAcct>
+			<RmtInf>
+			  <Strd>
+				<RfrdDocInf><Tp><CdOrPrtry><Cd>CINV</Cd></CdOrPrtry></Tp><Nb>Cli-REF---1--nn--nn--nn--nn--nn--nF</Nb><RltdDt>2016-01-01</RltdDt></RfrdDocInf>
+				<RfrdDocAmt><RmtdAmt Ccy="EUR">101.13</RmtdAmt></RfrdDocAmt>
+				<CdtrRefInf><Tp><CdOrPrtry><Cd>SCOR</Cd></CdOrPrtry></Tp><Ref>FourRef-1nn--nn--nn--nn--nn--nn--nF</Ref></CdtrRefInf>
+			  </Strd>
+			  <Strd>
+				<RfrdDocInf><Tp><CdOrPrtry><Cd>CINV</Cd></CdOrPrtry></Tp><Nb>Cli-REF---2--nn--nn--nn--nn--nn--nF</Nb><RltdDt>2016-01-01</RltdDt></RfrdDocInf>
+				<RfrdDocAmt><RmtdAmt Ccy="EUR">101.13</RmtdAmt></RfrdDocAmt>
+				<CdtrRefInf><Tp><CdOrPrtry><Cd>SCOR</Cd></CdOrPrtry></Tp><Ref>FourRef-2nn--nn--nn--nn--nn--nn--nF</Ref></CdtrRefInf>
+			  </Strd>
+			  
+			</RmtInf>
+		  </CdtTrfTxInf>	
+	</PmtInf>
+	
+  </CstmrCdtTrfInitn>
+</Document>
