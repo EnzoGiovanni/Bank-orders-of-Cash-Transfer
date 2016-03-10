@@ -1,0 +1,43 @@
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pain.001.001.02 P:\Remises_ordres\Schema_xsd\pain.001.001.02.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.02">
+  <pain.001.001.02>
+	<GrpHdr>
+		<MsgId>Reference Remsie</MsgId>
+		<CreDtTm>2015-01-01T09:00:00</CreDtTm>
+		<NbOfTxs>3</NbOfTxs>
+		<Grpg>MIXD</Grpg>
+		<InitgPty></InitgPty>
+    </GrpHdr>
+	
+    <PmtInf>
+		<PmtInfId>Reference DO</PmtInfId>
+		<PmtMtd>TRF</PmtMtd>
+		<ReqdExctnDt>2015-05-05</ReqdExctnDt>
+		<Dbtr><Nm>Nom DO</Nm></Dbtr>
+		<DbtrAcct><Id><IBAN>FR7630004045100005024477785</IBAN></Id></DbtrAcct>
+		<DbtrAgt><FinInstnId><BIC>BNPPAFRXXX</BIC></FinInstnId></DbtrAgt>
+		<CdtTrfTxInf>
+			<PmtId><EndToEndId>Ope 01</EndToEndId></PmtId>
+			<Amt><InstdAmt Ccy="EUR">1100.00</InstdAmt></Amt>
+			<CdtrAgt><FinInstnId><BIC>BNPPAFRXXX</BIC></FinInstnId></CdtrAgt>
+			<Cdtr><Nm>Nom BEN</Nm></Cdtr>
+			<CdtrAcct><Id><IBAN>FR7630003045100002030144530</IBAN></Id></CdtrAcct>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId><EndToEndId>Ope 02</EndToEndId></PmtId>
+			<Amt><InstdAmt Ccy="EUR">1200.00</InstdAmt></Amt>
+			<CdtrAgt><FinInstnId><BIC>BNPPAFRXXX</BIC></FinInstnId></CdtrAgt>
+			<Cdtr><Nm>Nom BEN</Nm></Cdtr>
+			<CdtrAcct><Id><IBAN>FR7630003045100002030144530</IBAN></Id></CdtrAcct>
+		</CdtTrfTxInf>
+		<CdtTrfTxInf>
+			<PmtId><EndToEndId>Ope 03</EndToEndId></PmtId>
+			<Amt><InstdAmt Ccy="EUR">1300.00</InstdAmt></Amt>
+			<CdtrAgt><FinInstnId><BIC>PSSTFRPP</BIC></FinInstnId></CdtrAgt>
+			<Cdtr><Nm>NOM BEN</Nm></Cdtr>
+			<CdtrAcct><Id><IBAN>FR7620041010140000000000103</IBAN></Id></CdtrAcct>
+		</CdtTrfTxInf>
+    </PmtInf>
+	
+
+  </pain.001.001.02>
+</Document>
