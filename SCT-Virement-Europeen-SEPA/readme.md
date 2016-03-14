@@ -1,1 +1,1 @@
-#SCT Virement européen SEPA
+#SCT - Virement européen SEPA
