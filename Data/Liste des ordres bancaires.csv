@@ -4,3 +4,5 @@
 "CFONB","CT","Credit Transfert","Virement International","CFONB320"
 "ISO 20022","CT","Credit Transfert","Virement International","pain.001.001.02"
 "ISO 20022","CT","Credit Transfert","Virement International","pain.001.001.03"
+"DTA","CT","Credit Transfert","virement international urgent (DTA ausland)","DTA"
+"AEB34-1","CT","Credit Transfert","virement international urgent (DTA ausland)","AEB34-1"
