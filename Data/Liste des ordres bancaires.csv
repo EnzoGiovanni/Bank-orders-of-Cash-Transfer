@@ -11,3 +11,5 @@
 "CFONB","CT","Credit Transfert","Virement de Trésorerie","Virement Urgent ou de Trésorerie","CFONB320"
 "FONB","CT","Credit Transfert","Virement de Trésorerie","Virement Urgent ou de Trésorerie","CFONB160"
 "PAYORD","CT","Credit Transfert","Virement de Trésorerie","Virement Urgent ou de Trésorerie","PAYORD 912"
+"ISO 20022","VCOM","Credit Transfert","Virement Commerciale","Facture à échéance","pain.001.001.02"
+"ISO 20022","VCOM","Credit Transfert","Virement Commerciale","Facture à échéance","pain.001.001.03"
