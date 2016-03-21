@@ -1,4 +1,4 @@
-"Norme","Abréviation","Libellé","Nature d'ordre","Libellé","Format"
+"Norme","Abréviation","Type","Nature d'ordre","Libellé","Format"
 "ISO 20022","SCT","Virement","Virement Européen SEPA","Virement Européen SEPA","pain.001.001.02"
 "ISO 20022","SCT","Virement","Virement Européen SEPA","Virement Européen SEPA","pain.001.001.03"
 "CFONB","CT","Virement","Virement International","Virement International","CFONB320"
@@ -22,3 +22,7 @@
 "DTA","","Virement","Virement domestique","Virement domestique non urgent","DTA"
 "AEB34","","Virement","Virement domestique","Virement domestique","AEB34"
 "ISO 20022","","Virement","Virement délocalisé","Virement délocalisé","pain.001.001.02"
+"ISO 20022","","Virement","Virement délocalisé","Virement délocalisé","pain.001.001.03"
+"ETB101","","Virement","Virement délocalisé","Virement délocalisé","ETB101"
+"CFONB320","","Virement","Virement délocalisé","Virement délocalisé","CFONB320"
+"MT101","","Virement","Virement délocalisé","Virement délocalisé","MT101"
