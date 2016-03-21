@@ -26,3 +26,8 @@
 "ETB101","CT","Virement","Virement délocalisé","Virement délocalisé","ETB101"
 "CFONB320","CT","Virement","Virement délocalisé","Virement délocalisé","CFONB320"
 "MT101","CT","Virement","Virement délocalisé","Virement délocalisé","MT101"
+"ISO 20022","SDD","Prélèvement","Prélèvement Européen SEPA","Prélèvement Européen SEPA","pain.008.001.01"
+"ISO 20022","SDD","Prélèvement","Prélèvement Européen SEPA","Prélèvement Européen SEPA","pain.008.001.02"
+"CFONB","SDD","Prélèvement","Prélèvement","Prélèvement","CFONB 160"
+"AEB","SDD","Prélèvement","Prélèvement","Prélèvement","AEB19"
+"AEB","SDD","Prélèvement","Prélèvement","Prélèvement","AEB58"
