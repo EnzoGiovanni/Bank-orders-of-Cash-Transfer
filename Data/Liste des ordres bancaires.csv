@@ -6,3 +6,7 @@
 "ISO 20022","CT","Credit Transfert","Virement International","Virement International","pain.001.001.03"
 "DTA","CT","Credit Transfert","Virement International","virement international urgent (DTA ausland)","DTA"
 "AEB34-1","CT","Credit Transfert","Virement International","virement international urgent (DTA ausland)","AEB34-1"
+"ISO 20022","CT","Credit Transfert","Virement de Trésorerie","Virement de Trésorerie","pain.001.001.02"
+"ISO 20022","CT","Credit Transfert","Virement de Trésorerie","Virement de Trésorerie","pain.001.001.03"
+"CFONB","CT","Credit Transfert","Virement de Trésorerie","Virement Urgent ou de Trésorerie","CFONB320"
+FONB","CT","Credit Transfert","Virement de Trésorerie","Virement Urgent ou de Trésorerie","CFONB160"
