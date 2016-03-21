@@ -10,3 +10,4 @@
 "ISO 20022","CT","Credit Transfert","Virement de Trésorerie","Virement de Trésorerie","pain.001.001.03"
 "CFONB","CT","Credit Transfert","Virement de Trésorerie","Virement Urgent ou de Trésorerie","CFONB320"
 "FONB","CT","Credit Transfert","Virement de Trésorerie","Virement Urgent ou de Trésorerie","CFONB160"
+"PAYORD","CT","Credit Transfert","Virement de Trésorerie","Virement Urgent ou de Trésorerie","PAYORD 912"
