@@ -13,3 +13,8 @@
 "PAYORD","CT","Credit Transfert","Virement de Trésorerie","Virement Urgent ou de Trésorerie","PAYORD 912"
 "ISO 20022","VCOM","Credit Transfert","Virement Commerciale","Facture à échéance","pain.001.001.02"
 "ISO 20022","VCOM","Credit Transfert","Virement Commerciale","Facture à échéance","pain.001.001.03"
+"PAYEXT","VCOM","Credit Transfert","Virement Commerciale","Facture à échéance","PAYEXT 96A"
+"FIXE400","VCOM","Credit Transfert","Virement Commerciale","Facture à échéance","FIXE400"
+"ISO 20022","","SEPA Credit Transfert","Virement Multi fonctions","Virement Multi fonctions","pain.001.001.02"
+"ISO 20022","","SEPA Credit Transfert","Virement Multi fonctions","Virement Multi fonctions","pain.001.001.03"
+"CMI101","","SEPA Credit Transfert","Virement Multi fonctions","Virement Multi fonctions","CMI101"
